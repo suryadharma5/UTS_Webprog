@@ -35,7 +35,7 @@
         <div class="span fw-bold">Video Section</div>
         <div class="border-top my-0 border border-black" style="width: 150px; height: 3px; background-color: black" ></div>
         <div class="mt-2 mb-4">
-            <img src="https://source.unsplash.com/1200x400/?entrepreneur" alt="" class="img-fluid">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/9HqoP25UNlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
     </div>
