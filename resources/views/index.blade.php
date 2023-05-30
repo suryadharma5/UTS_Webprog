@@ -9,7 +9,9 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="col-lg">
-                    <img src="https://source.unsplash.com/1200x700/?{{ $posts[0]->category}}" alt="" class="img-fluid mt-3">  
+                    <a href="/detail/{{ $posts[0]->id }}">
+                        <img src="https://source.unsplash.com/1200x700/?{{ $posts[0]->category}}" alt="" class="img-fluid mt-3">  
+                    </a>
                 </div>
             </div>
             <div class="col-lg-8 mt-3">
@@ -50,7 +52,9 @@
                 @foreach ($books as $book)
                     <div class="col-md-4">
                         <div class="card border-0 my-2 bg-dark" style="width: 25rem;">
-                            <img src="https://source.unsplash.com/700x300/?{{ $book->category }}" class="card-img-top rounded-0" alt="..." style="margin-left: 15px">
+                            <a href="/detail/{{ $book->id }}">
+                                <img src="https://source.unsplash.com/700x300/?{{ $book->category }}" class="card-img-top rounded-0" alt="..." style="margin-left: 15px">
+                            </a>
                             <div class="card-body m-0">
                               <h5 class="card-title text-white">{{ $book->title }}</h5>
                               <a href="/detail/{{ $book->id }}" class="btn btn-primary radius-0">Read Post</a>
